@@ -12,6 +12,5 @@ class School
       @roster[student_grade] = []
     end
     @roster[student_grade] << student_name
-    @roster << {student_grade=>[student_name]}
   end
 end
